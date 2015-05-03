@@ -1,0 +1,134 @@
+
+\0
+test
+test test
+test    test                     test
+  test str
+   str
+.
+ .
+  ..
+0
+
+23
+ 1
+.1
+  1.1
+-
+ -.1
+
+printR
+                                        printR
+printR all
+      printR                            all
+printR all21
+printR all arg
+printR name
+printR 20
+printR     -10
+printR someloooooooooooooooooooooooooooooooooooooooooooooooooooooooooo000ongname
+printR 0
+printR "test"
+printR \"test\"
+printR \\\\\\\\
+printR ////////
+printR stack overflow
+    printR name
+          printR                           -.22name
+printR a lot of arg u ments
+printR 1 1 1 1 1 1 1 1 1 1 1 1 1 11  1 1 1 1 1   1 1 1 1 1  1
+
+printNode
+printNode        all
+printNode all1
+printNode 22all
+        printNode        8
+printNode 0001
+printNode 00010
+printNode 1000
+printNode   1000.
+printNode .1000
+printNode 1.1
+printNode -4
+printNode -4.
+printNode -.4
+printNode -1
+printNode 0
+printNode 1
+printNode 4999
+printNode 5000
+printNode 5001
+printNode 2147483647
+printNode 2147483648
+printNode 
+printNode str
+printNode 1str
+printNode 12 12
+printNode 12 \n12
+printNode 1 a lot of arg u ments
+printNode printNode
+printNode 1\ndeleteR
+printNode -0
+
+deleteR
+deleteR all
+deleteR alll
+deleteR 0all
+deleteR all0
+deleteR .all
+deleteR all.
+deleteR -all
+deleteR all-
+deleteR ALL
+deleteR al l
+deleteR 0
+deleteR    00001
+deleteR    00000.1
+deleteR deleteR
+deleteR modifyR
+deleteR \ndeleteR
+deleteR arg0 arg1
+deleteR a lot of arg u ments
+deleteR \b\b\b\b\b\b
+
+modifyR
+modifyR all
+modifyR all 0
+modifyR res -1
+modifyR modifyR .13
+modifyR insertR -090118731823
+modifyR            n-_am$$%e~~!    -.999999
+modifyR name
+modifyR name name
+modifyR name name name
+modifyR name .-999
+modifyR name 9.99.
+modifyR name 0009.00009
+modifyR name -0
+modifyR name -.0
+modifyR name -000000.00000
+modifyR name .0
+modifyR name .00900000099
+modifyR name 0.991_
+modifyR name 0.991\n
+
+insertR
+insertR all
+insertR name
+insertR name 0.123
+insertR name -1
+insertR name 5001
+insertR name name name
+insertR name name name name name
+insertR name 0.5 1 1 1
+insertR name 7.41321 1 1
+insertR name 1231 1 "1"
+insertR \0 -99 1 1 2
+insertR 44.4 55.5 0 5000
+insertR all 0.5 1 2
+insertR all0 13123122.12889 89 -9
+insertR all -12 1 1 too many args
+insertR name 1 1 2 t o o m a n y a r g s f o r y o u t o h a n d l e .
+insertR name +45 +2 +4
+insertR name +.12312 +1 1
+

@@ -1,0 +1,10 @@
+Checking for the expected files in the current directory
+Main.cpp Rparser.cpp Rparser.h ResistorList.h ResistorList.cpp Resistor.h Resistor.cpp Node.h Node.cpp NodeList.h NodeList.cpp
+can't find file 'Main.cpp'.
+
+Error: cannot find all expected files in the current directory.
+Please make sure all necessary files are in the current directory. Also, 
+check that the file names are correct, including capitalization.
+
+No files were submitted
+

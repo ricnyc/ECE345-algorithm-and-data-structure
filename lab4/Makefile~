@@ -1,0 +1,28 @@
+FLAGS = -g -Wall
+
+all : rnet
+
+rnet: Main.o Rparser.o Resistor.o Node.o ResistorList.o NodeList.o
+	g++ ${FLAGS} -o rnet $^ 
+
+Main.o : Main.cpp
+	g++ ${FLAGS} -c $<
+
+Rparser.o : Rparser.cpp Rparser.h
+	g++ ${FLAGS} -c $<
+
+Resistor.o : Resistor.cpp Resistor.h
+	g++ ${FLAGS} -c $<
+
+Node.o : Node.cpp Node.h
+	g++ ${FLAGS} -c $<
+
+ResistorList.o : ResistorList.cpp ResistorList.h
+	g++ ${FLAGS} -c $<
+
+NodeList.o : NodeList.cpp NodeList.h
+	g++ ${FLAGS} -c $<
+
+clean : 
+	rm -f *.o Main
+

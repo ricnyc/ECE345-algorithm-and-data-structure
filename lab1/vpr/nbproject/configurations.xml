@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="vpr" root=".">
+      <in>check_netlist.c</in>
+      <in>check_netlist.h</in>
+      <in>check_route.c</in>
+      <in>check_route.h</in>
+      <in>check_rr_graph.c</in>
+      <in>check_rr_graph.h</in>
+      <in>draw.c</in>
+      <in>draw.h</in>
+      <in>globals.h</in>
+      <in>graphics.c</in>
+      <in>graphics.h</in>
+      <in>hash.c</in>
+      <in>hash.h</in>
+      <in>heapsort.c</in>
+      <in>heapsort.h</in>
+      <in>main.c</in>
+      <in>net_delay.c</in>
+      <in>net_delay.h</in>
+      <in>path_delay.c</in>
+      <in>path_delay.h</in>
+      <in>path_delay2.c</in>
+      <in>path_delay2.h</in>
+      <in>place.c</in>
+      <in>place.h</in>
+      <in>place_and_route.c</in>
+      <in>place_and_route.h</in>
+      <in>print_netlist.c</in>
+      <in>print_netlist.h</in>
+      <in>read_arch.c</in>
+      <in>read_arch.h</in>
+      <in>read_netlist.c</in>
+      <in>read_netlist.h</in>
+      <in>read_place.c</in>
+      <in>read_place.h</in>
+      <in>route_breadth_first.c</in>
+      <in>route_breadth_first.h</in>
+      <in>route_common.c</in>
+      <in>route_common.h</in>
+      <in>route_export.h</in>
+      <in>route_timing.c</in>
+      <in>route_timing.h</in>
+      <in>route_tree_timing.c</in>
+      <in>route_tree_timing.h</in>
+      <in>rr_graph.c</in>
+      <in>rr_graph.h</in>
+      <in>rr_graph2.c</in>
+      <in>rr_graph2.h</in>
+      <in>rr_graph_area.c</in>
+      <in>rr_graph_area.h</in>
+      <in>rr_graph_indexed_data.c</in>
+      <in>rr_graph_indexed_data.h</in>
+      <in>rr_graph_sbox.c</in>
+      <in>rr_graph_sbox.h</in>
+      <in>rr_graph_timing_params.c</in>
+      <in>rr_graph_timing_params.h</in>
+      <in>rr_graph_util.c</in>
+      <in>rr_graph_util.h</in>
+      <in>segment_stats.c</in>
+      <in>segment_stats.h</in>
+      <in>stats.c</in>
+      <in>stats.h</in>
+      <in>test_h.c</in>
+      <in>util.c</in>
+      <in>util.h</in>
+      <in>vpr_types.h</in>
+      <in>vpr_utils.c</in>
+      <in>vpr_utils.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>vpr</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="graphics.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>/usr/openwin/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

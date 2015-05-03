@@ -1,0 +1,66 @@
+Input netlist file: 4lut_sanitized.arch
+
+io_rat: 2.
+chan_width_io: 1  pins_per_clb (pins per clb): 6
+
+
+Channel Types:  UNIFORM = 0; GAUSSIAN = 1; PULSE = 2; DELTA = 3
+
+
+chan_width_x:
+type: 0  peak: 1  width: -1  xpeak: -1  dc: -1
+
+chan_width_y:
+type: 0  peak: 1  width: -1  xpeak: -1  dc: -1
+
+Pin #	class	top	bottom	left	right	global
+0	0	0	1	0	0	0
+1	0	0	0	1	0	0
+2	0	1	0	0	0	0
+3	0	0	0	0	1	0
+4	1	0	1	0	0	0
+5	2	1	0	0	0	1
+
+Class types:  DRIVER = 0; RECEIVER = 1
+
+Class	Type	Numpins	Pins
+0	1	4	0	1	2	3	
+1	0	1	4	
+2	1	1	5	
+
+subblocks_per_clb (maximum): 1
+subblock_lut_size: 4
+
+Fc value is fraction of tracks in a channel.
+Fc_output: 1.  Fc_input: 1.  Fc_pad: 1.
+switch_block_type: SUBSET.
+
+num_segment: 1,  num_switch: 3.
+(Two switch types were generated automatically.)
+#2:  delayless switch.  #1:  wire_to_ipin_switch.
+
+Seg. #	freq.	length	longln	opin_sw	wire_sw	Frac_cb	Frac_sb	Cmetal	Rmetal
+0	1	1	0	0	0	1	1	8.1e-14	4.16
+
+Switch#	buff?	R	Cin	Cout	Tdel
+0	1	786.9	7.512e-15	1.0762e-14	4.56e-10
+1	1	0	7.512e-15	0	1.5e-09
+2	1	0	0	0	0
+
+
+R_minW_nmos: 1967  R_minW_pmos: 3738
+
+
+Timing information:
+---------------------------------------------------------
+C_ipin_cblock: 7.512e-15 (F) 
+T_ipin_cblock: 1.5e-09 (s)
+
+T_sblk_opin_to_sblk_ipin: 0 (s)
+T_clb_ipin_to_sblk_ipin: 0 (s)
+T_sblk_opin_to_clb_opin: 0 (s)
+T_ipad: 4.78e-10 (s)  
+T_opad: 2.95e-10 (s)
+
+Subblock #	T_comb (s)	T_seq_in (s)	T_seq_out (s)
+         0	  5.46e-10	  8.45e-10	  4.78e-10 (s)

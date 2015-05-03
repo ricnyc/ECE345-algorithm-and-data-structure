@@ -1,0 +1,134 @@
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: invalid command
+> Error: too few arguments
+> Error: too few arguments
+> Print: all resistors
+> Print: all resistors
+> Print: resistor all21
+> Error: too many arguments
+> Print: resistor name
+> Print: resistor 20
+> Print: resistor -10
+> Print: resistor someloooooooooooooooooooooooooooooooooooooooooooooooooooooooooo000ongname
+> Print: resistor 0
+> Print: resistor "test"
+> Print: resistor \"test\"
+> Print: resistor \\\\\\\\
+> Print: resistor ////////
+> Error: too many arguments
+> Print: resistor name
+> Print: resistor -.22name
+> Error: too many arguments
+> Error: too many arguments
+> Error: invalid command
+> Error: too few arguments
+> Print: all nodes
+> Error: invalid argument
+> Error: invalid argument
+> Print: node 8
+> Print: node 1
+> Print: node 10
+> Print: node 1000
+> Error: invalid argument
+> Error: invalid argument
+> Error: invalid argument
+> Error: node -4 is out of permitted range 0-5000
+> Error: invalid argument
+> Error: invalid argument
+> Error: node -1 is out of permitted range 0-5000
+> Print: node 0
+> Print: node 1
+> Print: node 4999
+> Print: node 5000
+> Error: node 5001 is out of permitted range 0-5000
+> Error: node 2147483647 is out of permitted range 0-5000
+> Error: node 2147483648 is out of permitted range 0-5000
+> Error: too few arguments
+> Error: invalid argument
+> Error: invalid argument
+> Error: too many arguments
+> Error: too many arguments
+> Error: too many arguments
+> Error: invalid argument
+> Error: invalid argument
+> Print: node 0
+> Error: invalid command
+> Error: too few arguments
+> Deleted: all resistors
+> Deleted: resistor alll
+> Deleted: resistor 0all
+> Deleted: resistor all0
+> Deleted: resistor .all
+> Deleted: resistor all.
+> Deleted: resistor -all
+> Deleted: resistor all-
+> Deleted: resistor ALL
+> Error: too many arguments
+> Deleted: resistor 0
+> Deleted: resistor 00001
+> Deleted: resistor 00000.1
+> Deleted: resistor deleteR
+> Deleted: resistor modifyR
+> Deleted: resistor \ndeleteR
+> Error: too many arguments
+> Error: too many arguments
+> Deleted: resistor \b\b\b\b\b\b
+> Error: invalid command
+> Error: too few arguments
+> Error: resistor name cannot be the keyword "all"
+> Error: resistor name cannot be the keyword "all"
+> Error: negative resistance
+> Modified: resistor modifyR to 0.13 Ohms
+> Error: negative resistance
+> Error: negative resistance
+> Error: too few arguments
+> Error: invalid argument
+> Error: invalid argument
+> Error: invalid argument
+> Error: invalid argument
+> Modified: resistor name to 9.00 Ohms
+> Modified: resistor name to 0.00 Ohms
+> Modified: resistor name to 0.00 Ohms
+> Modified: resistor name to 0.00 Ohms
+> Modified: resistor name to 0.00 Ohms
+> Modified: resistor name to 0.01 Ohms
+> Error: invalid argument
+> Error: invalid argument
+> Error: invalid command
+> Error: too few arguments
+> Error: resistor name cannot be the keyword "all"
+> Error: too few arguments
+> Error: too few arguments
+> Error: negative resistance
+> Error: too few arguments
+> Error: invalid argument
+> Error: invalid argument
+> Error: both terminals of resistor connect to node 1
+> Error: both terminals of resistor connect to node 1
+> Error: invalid argument
+> Error: negative resistance
+> Inserted: resistor 44.4 55.50 Ohms 0 -> 5000
+> Error: resistor name cannot be the keyword "all"
+> Error: node -9 is out of permitted range 0-5000
+> Error: resistor name cannot be the keyword "all"
+> Error: too many arguments
+> Inserted: resistor name 45.00 Ohms 2 -> 4
+> Error: both terminals of resistor connect to node 1
+> 

@@ -1,0 +1,14 @@
+rect r1 cyan -5 -1 4 10
+rect r2 blue 9 9 6 3
+rect r3 darkgreen 8 -6 3 4
+printall
+perimeter
+area 
+scale r1 0.5
+translate 10 11 -4 -20
+rect r4 grey55 5 -2 8 7
+remove r3
+area
+perimeter
+printall
+draw
