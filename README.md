@@ -11,8 +11,7 @@
   ters 1. . .5, Appendices A, B and C)
   • Sorting: quicksort and analysis, heapsort and analysis, other sorting methods, lower bounds
   in sorting and selection in linear time (Chapters 6. . .9)
-  • Binary Search trees, Red-Back trees, Amortized Analysis, Splay trees, Hashing (Chapters
-  10. . .13, 17)
+  • Binary Search trees, Red-Back trees, Amortized Analysis, Splay trees, Hashing (Chapters 10. . .13, 17)
   • Dynamic Programming and Greedy Algorithms (Chapters 15 and 16)
   • Basic graph algorithms (breadth-first search, depth-first search) (Chapter 22)
   • Minimum Spanning Trees and Single Source Shortest Paths (Chapters 23 and 24)
