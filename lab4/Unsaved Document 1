@@ -1,9 +1,0 @@
-To run rnet from terminal
-1) you need to enter "make"
-2) you need to enter "./rnet"
-
-To input a file's CONTEST into a program 
-1) enter "./rnet < FILENAME"
-example: ./rnet < test1.txt
-
-To close a program on terminal that's running press CTRL+C
