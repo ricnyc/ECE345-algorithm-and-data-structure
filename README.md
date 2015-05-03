@@ -1,7 +1,7 @@
 # ECE345-algorithm-and-data-structure
 <h4>The code in this repository are my solutions for ECE345 labs and Assignments at the University of Toronto. Please do not use it for your own course work, thank you.</h4> 
 <ul>
-<li>Problem</li>
+<li>Bonus assignment</li>
 <p>You are given an input file with multiple lines where each line contains a list of words separated by a space. All words contain only lowercase letters (a-z). Write an efficient C++ program to find and output the longest consecutive palindromic sequence of words belonging to every line in the file.</p>
 <li>Solution</li>
 <p>I can only pass 95% of the test case, if you can improve my program performance, please let me know, thank you</p>
